@@ -1,3 +1,12 @@
 .Dictionary {
-  background: lightblue;
+  text-align: center;
+}
+
+.Dictionary .title {
+  font-size: 35px;
+}
+
+.Dictionary .question {
+  font-size: 20px;
+  margin: 18px auto;
 }
