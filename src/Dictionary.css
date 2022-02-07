@@ -8,9 +8,26 @@
 
 .Dictionary .question {
   font-size: 20px;
-  margin: 18px auto;
+  margin: 15px auto;
+  font-weight: bold;
 }
 
 .results {
+  text-align: left;
+}
+.Dictionary section {
+  background-color: rgb(238, 243, 247);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  margin: 18px;
+}
+.Dictionary input {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.8);
+}
+.Dictionary .hint {
+  font-size: 10px;
+  margin-top: 4px;
   text-align: left;
 }

@@ -24,12 +24,14 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <div className="title">Dictionary</div>
-      <div className="question">What word are you looking for?</div>
-      <form onSubmit={search}>
-        <input type="search" onChange={updateWordChange} />
-        <button className="btn btn-primary">Search</button>
-      </form>
+      <section>
+        <div className="title">Dictionary</div>
+        <div className="question">What word are you looking for?</div>
+        <form onSubmit={search}>
+          <input type="search" onChange={updateWordChange} />
+          <div className="hint">Suggested words: tree, sky, laptop...</div>
+        </form>
+      </section>
       <Results results={definitions} />
     </div>
   );
